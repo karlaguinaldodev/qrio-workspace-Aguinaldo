@@ -41,10 +41,11 @@ def main():
         "age": 20,
         "city": "New York"
     }
+  
 
     print(person.get('names'))
-    print(person['ages'])
-    print(person['city'])
+    print(person.get['ages'])
+    print(person.get['city'])
     
     
 def order_item(item_id:int):
@@ -62,6 +63,4 @@ def pay(total):
 
     
 if __name__ == "__main__":
-    item = order_item(1)
-    total = checkout(item)
-    pay(total)
+  main()
