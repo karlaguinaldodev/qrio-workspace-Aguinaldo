@@ -10,6 +10,7 @@ def calculate_rating (score):
   elif score >= 40:
      return "Medyo Average" #Tried branch testing 2 here to see what happens
    #Tried another merge here
+   #Tried again because nalito
   else:
      return "Poor"
 
