@@ -9,6 +9,7 @@ def calculate_rating (score):
      return "Average"
   elif score >= 40:
      return "Medyo Average" #Tried branch testing 2 here to see what happens
+   #Tried another merge here
   else:
      return "Poor"
 
