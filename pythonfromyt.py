@@ -141,11 +141,82 @@
 #     uniques.append(number)
 # print(uniques)
 
-#i understand it now
-numbers = [5, 5, 5, 5, 5, 2, 1, 7, 4, 4, 4, 4]
-uniques = []
-for number in numbers:
-  if number not in uniques:
-    uniques.append(number)
-print(uniques)
+# #i understand it now
+# numbers = [5, 5, 5, 5, 5, 2, 1, 7, 4, 4, 4, 4]
+# uniques = []
+# for number in numbers:
+#   if number not in uniques:
+#     uniques.append(number)
+# print(uniques)
+
+# coordinates = (1, 2, 3)
+# x, y, z = coordinates
+# print(x, y, z)
+
+# customer = {
+#   "name": "Karl Angelo",
+#   "age": 30,
+#   "is_verified": True
+# }
+# customer["name"] = "Gelo Aguinaldo"
+# print(customer.get("name"))
+
+# phone = input("Phone: ")
+# digts_map = {
+#   "1": "One",
+#   "2": "Two",
+#   "3": "Three",
+#   "4": "Four"
+# # }
+# output = ""
+# for numbers in phone:
+#   output += digts_map.get(numbers, "!") + " "
+# print(output)
+# ""
+
+#FUNCTIONS
+# def greet_user(first_name, last_name):
+#     print(f"Hi There! {first_name} {last_name}")
+#     print("Welcome aboard")
+# print("start")
+# greet_user(last_name="Aguinaldo", first_name="Karl")
+# print("finish")
+
+# def square(number):
+#   return number * number
+
+# print(square(3))
+
+# message = input(">")
+# words = message.split(" ")
+# emojis = {
+#    ":)": "😊",
+#    ":(": "🥺"
+# }
+
+# output = ""
+# for word in words:
+#   output += emojis.get(word, word) + ' '
+# print(output)
+
+# def emoji_converter(message):
+#   words = message.split(" ")
+#   emojis = {
+#     ":)": "😊",
+#     ":(": "🥺"
+#   }
+
+#   output = ""
+#   for word in words:
+#     output += emojis.get(word, word) + ' '
+#   return output
+
+# message = input(">")
+# print(emoji_converter(message))
+
+try:
+    age = int(input('Age:'))
+    print (age)
+except ValueError:
+    print("Inavalid Value")
 
