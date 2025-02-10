@@ -134,6 +134,12 @@
 # numbers.remove(5)
 # print(numbers)
 
-numbers = [5, 2, 1, 7, 4]
-numbers.sort()
-print(numbers)
+# # numbers = [5, 5, 2, 1, 7, 4]
+# uniques = []
+# for number in numbers:
+#   if number not in uniques:
+#     uniques.append(number)
+# print(uniques)
+
+
+
