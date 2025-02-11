@@ -214,9 +214,74 @@
 # message = input(">")
 # print(emoji_converter(message))
 
-try:
-    age = int(input('Age:'))
-    print (age)
-except ValueError:
-    print("Inavalid Value")
+# try:
+#     age = int(input('Age:'))
+#     print (age)
+# except ValueError:
+#     print("Inavalid Value")
 
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+#     def move(self):
+#         print("move")
+    
+#     def draw(self):
+#         print("draw")
+
+
+# point = Point(10, 20)
+# print(point.x)
+
+
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+    
+#     def talk(self):
+#         print(f"Hi, I am {self.name}")
+
+
+# karl = Person("Karl Angelo")
+# karl.talk()
+
+#inheritance
+# class Mammal:
+#     def walk(self):
+#         print("walk")
+
+
+# class Dog(Mammal):
+#     def bark(self):
+#         print("bark")
+
+
+# class Cat(Mammal):
+#     def meow(self):
+#         print("meow")
+
+
+# cat = Cat()
+# cat.walk()
+# cat.meow()
+
+# dog = Dog()
+# dog.bark()
+
+# import converters
+# from converters import kg_to_lbs
+
+# convert = converters.kg_to_lbs(int(input("Please enter your weight in Kg: ")))
+# print(f"You are {convert} Lbs")
+
+# from utlis import find_max
+# numbers = [10, 3, 6, 2]
+# max = find_max(numbers)
+# print(max)
+
+import random
+
+for i in range(3):
+  print(random.randint(10,20))
